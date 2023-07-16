@@ -8,7 +8,7 @@ Created on Sat Jul 15 17:16:20 2023
 import numpy as np
 import pickle
 import streamlit as st
-import xgboost
+
 
 
 loaded_model=pickle.load(open(r"C:\Users\User\Desktop\big mart sales\trained_model.sav","rb"))
