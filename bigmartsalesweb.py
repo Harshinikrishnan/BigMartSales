@@ -11,7 +11,7 @@ import streamlit as st
 
 
 
-loaded_model=pickle.load(open(r"C:\Users\User\Desktop\big mart sales\trained_model.sav","rb"))
+loaded_model=pickle.load(open("trained_model.sav","rb"))
 def bigmartsales(input_data):
     input_data = [float(x) for x in input_data]
 
