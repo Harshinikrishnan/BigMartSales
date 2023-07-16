@@ -8,6 +8,7 @@ Created on Sat Jul 15 17:16:20 2023
 import numpy as np
 import pickle
 import streamlit as st
+import xgboost
 
 
 
